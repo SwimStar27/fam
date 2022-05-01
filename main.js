@@ -18,7 +18,7 @@ function brownie(){
 }
 
 console.log('This is ml5',ml5.version);
-classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/NbcUZCcE2/',modelLoaded);
+classifier=ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/NbcUZCcE2/model.json',modelLoaded);
 
 function modelLoaded(){
  console.log('Family');
